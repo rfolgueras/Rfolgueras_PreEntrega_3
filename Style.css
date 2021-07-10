@@ -39,7 +39,10 @@ li{
     list-style: none;
 }
 li:hover{
-    transform:scale(1.5,1.5);
+    transform:scale(1.2,1.2);
+}
+.navbar-brand: :hover{
+    transform:scale(1.2,1.2);
 }
 a{
     text-decoration: none;
@@ -76,6 +79,7 @@ a{
     background-color:rgb(44, 38, 29);
     color:rgb(211, 209, 209);
     grid-area:About_Us_Texto;
+    height: 150px;
 }
 #Main_Image_About_Us{
     display: grid;

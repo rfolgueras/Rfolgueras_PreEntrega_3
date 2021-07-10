@@ -1,0 +1,42 @@
+body{
+    background-color: black;
+}
+
+$colortexto: rgb(211, 209, 209);
+$backgroundcolor: rgb(44, 38, 29);
+$backgroundimage: linear-gradient(to right,rgb(211, 209, 209), rgb(126, 123, 123) );
+$colortextobanner:rgb(44, 38, 29)(44, 38, 29);
+
+
+.banner1{
+    display: flexbox;
+    justify-content: center;
+    background-image: $backgroundimage;
+    height: 60px;
+    text-align: center;
+}
+    
+    h1{
+        font-size:40px;
+        color: $colortextobanner
+
+
+    }
+    .banner2{
+        @extend .banner1;
+    }
+    #gamboa{
+        background-image: url("./gamboabanner.png");
+        background-size:cover;
+        height: 292px;
+        width: 100%;
+    }
+    p{
+        color: $colortexto;
+        background-color: $backgroundcolor;
+        height: 80px;
+        font-size: 20px;
+    }
+    .back2home{
+        color: $colortexto;
+    }
