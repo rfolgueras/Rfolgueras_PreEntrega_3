@@ -41,7 +41,7 @@ li{
 li:hover{
     transform:scale(1.2,1.2);
 }
-.navbar-brand: :hover{
+.navbar-brand:hover{
     transform:scale(1.2,1.2);
 }
 a{
